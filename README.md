@@ -4,4 +4,6 @@
 
 - 🔭 I recently discovered a new [bypass stechnique of IAM policy on AWS](https://github.com/HackTricks-wiki/hacktricks-cloud/pull/116)
 - 💃 My most star'd repository is 'BugBounty' specificaly for the file I created all about [Web Framework Exposure Testing](https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md) 
-- 🌱 I’m currently learning AWS Hacking (after that GCP, Azure)
+- 🌱 I’m currently learning all things AWS Hacking (after that GCP, Azure) - to become a cloud hacker ninja ;^)
+
+  You can reach out to me on [X](https://x.com/evapro30) or [LinkedIn](https://www.linkedin.com/in/eprokofiev/) 
