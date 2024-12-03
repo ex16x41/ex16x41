@@ -1,8 +1,5 @@
 ## Hi there 👋
 
-<!--
-**ex16x41/ex16x41** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-## Stats Available
 
 <img width=400 src='https://github-readme-stats.vercel.app/api?username=ex16x41&theme=vue-dark&show_icons=true&hide_border=true&count_private=true' />
 
