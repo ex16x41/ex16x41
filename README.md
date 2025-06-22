@@ -4,5 +4,4 @@
 
 - 🔭 I recently discovered a new [bypass technique of IAM policy on AWS](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-sts-post-exploitation.html#bypass-user-agent-restrictions-from-python)
 - 🔭 And also made PR for CodeBuild PrivEsc (Example 3) [Create a hook.json file to send output from curl credentials URI to your webhook address](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-codebuild-privesc.html#iampassrole-codebuildcreateproject-codebuildstartbuild--codebuildstartbuildbatch)
-- my repo [Web Framework Exposure Testing](https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md) 
 - Im good at finding info (OSINT), and I enjoy pentesting stuff (combining best of both worlds) mostly cloud security, web, and a dash of api hacking )
