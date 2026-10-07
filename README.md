@@ -1,9 +1,35 @@
-### 🔭 Currently exploring new bypass methods
+# Hey, I'm ex16x41
 
-- **`2025` · IAM policy bypass on AWS** — Discovered a technique to [bypass user-agent–based IAM restrictions from Python](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-sts-post-exploitation.html#bypass-user-agent-restrictions-from-python). Some IAM policies condition access on the `aws:UserAgent` string; the method spoofs the SDK's user-agent so requests aren't filtered by these condition keys.
+Outside of EPCYBER, I spend my time learning and practicing offensive security concepts across **Web, API, and Cloud security**.
 
-- **`2025` · CodeBuild PrivEsc (Example 3)** — Contributed a PR for the [`iam:PassRole` + `codebuild:CreateProject` + `codebuild:StartBuild` escalation path](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-codebuild-privesc/index.html#iampassrole-codebuildcreateproject-codebuildstartbuild--codebuildstartbuildbatch). The technique creates a project with a crafted `hook.json` buildspec that reads the CodeBuild service-role credentials from the container credentials URI (`http://169.254.170.2$AWS_CONTAINER_CREDENTIALS_RELATIVE_URI`) and forwards them to an attacker-controlled webhook — direct privesc to any passable CodeBuild role.
+A lot of my offensive work starts from reading public research, bug bounty write-ups, documentation, and real-world findings, then turning that material into notes, personal labs, methodologies, and things I can actually apply during authorized testing. I'm not posting OSINT here, only purely offensive research. 
 
-### 🎯 Focus areas
+### 🔭 Bypass methods identified
 
-`Web` · `API` · `Cloud`
+- **AWS IAM policy bypasses** — Researched and documented a technique for bypassing IAM conditions based on `aws:UserAgent` by modifying the SDK user-agent used by Python clients.
+
+- **AWS CodeBuild privilege escalation** — Contributed research around an `iam:PassRole` + `codebuild:CreateProject` + `codebuild:StartBuild` escalation path involving CodeBuild service-role credentials.
+
+- **Bug bounty methodology** — Building simple, example-driven playbooks that focus less on memorizing payloads and more on understanding **why something works, why it fails, and what to try next**.
+
+### 📚 Public Bug Bounty Notes
+
+I keep a public collection of methodologies, notes, examples, and practical references here:
+
+**[public-bb](https://github.com/ex16x41/public-bb)**
+
+The goal is to keep the material practical and easy to follow using a **KISS — Keep It Simple, Stupid** approach.
+
+Current areas include:
+
+- API pentesting methodology
+- XSS testing methodology
+- recon and attack-surface mapping
+- bug bounty workflows
+- real-world write-up notes
+- failure → observation → pivot → result examples
+- vulnerability chaining concepts
+
+The material is collected from public research, documentation, other researchers' write-ups, and my own notes and testing experience. Credit belongs to the original researchers where applicable.
+
+Everything here is for authorized security research, labs, ctfs, and bug bounty programs.
