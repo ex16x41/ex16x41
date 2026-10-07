@@ -6,9 +6,9 @@ A lot of my offensive work starts from reading public research, bug bounty write
 
 ### 🔭 Bypass methods identified
 
-- **AWS IAM policy bypasses** — Researched and documented a technique for bypassing IAM conditions based on `aws:UserAgent` by modifying the SDK user-agent used by Python clients.
+- **`2025` · IAM policy bypass on AWS** — Discovered a technique to [bypass user-agent–based IAM restrictions from Python](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-sts-post-exploitation.html#bypass-user-agent-restrictions-from-python). Some IAM policies condition access on the `aws:UserAgent` string; the method spoofs the SDK's user-agent so requests aren't filtered by these condition keys.
 
-- **AWS CodeBuild privilege escalation** — Contributed research around an `iam:PassRole` + `codebuild:CreateProject` + `codebuild:StartBuild` escalation path involving CodeBuild service-role credentials.
+- **`2025` · CodeBuild PrivEsc (Example 3)** — Contributed a PR for the [`iam:PassRole` + `codebuild:CreateProject` + `codebuild:StartBuild` escalation path](https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-codebuild-privesc/index.html#iampassrole-codebuildcreateproject-codebuildstartbuild--codebuildstartbuildbatch). The technique creates a project with a crafted `hook.json` buildspec that reads the CodeBuild service-role credentials from the container credentials URI (`http://169.254.170.2$AWS_CONTAINER_CREDENTIALS_RELATIVE_URI`) and forwards them to an attacker-controlled webhook — direct privesc to any passable CodeBuild role.
 
 - **Bug bounty methodology** — Building simple, example-driven playbooks that focus less on memorizing payloads and more on understanding **why something works, why it fails, and what to try next**.
 
