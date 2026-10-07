@@ -1,6 +1,6 @@
 # Hey, I'm ex16x41
 
-Outside of EPCYBER, I spend my time learning and practicing offensive security concepts across **Web, API, and Cloud security**.
+Outside of EPCYBER, I spend my time learning and practicing offensive security concepts across **Web, API, and Cloud security (recently considering to dive into mobile too)**.
 
 A lot of my offensive work starts from reading public research, bug bounty write-ups, documentation, and real-world findings, then turning that material into notes, personal labs, methodologies, and things I can actually apply during authorized testing. I'm not posting OSINT here, only purely offensive research. 
 
