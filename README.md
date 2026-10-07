@@ -33,3 +33,7 @@ Current areas include:
 The material is collected from public research, documentation, other researchers' write-ups, and my own notes and testing experience. Credit belongs to the original researchers where applicable.
 
 Everything here is for authorized security research, labs, ctfs, and bug bounty programs.
+
+**Note:** This GitHub account, including my comments, workflows, methodologies, repositories, and any other content published here, pulls, merges etc, is maintained in a personal capacity and is not affiliated with, endorsed by, or representative of any employer, company, client, or other organization or GitHub users.
+
+If this account or its content is mentioned, referenced, or shared by others, that is solely their own choice and does not imply any affiliation, endorsement, or official relationship.
