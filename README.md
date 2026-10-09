@@ -37,3 +37,15 @@ Everything here is for authorized security research, labs, ctfs, and bug bounty 
 **Note:** This GitHub account, including my comments, workflows, methodologies, repositories, and any other content published here, pulls, merges etc, is maintained in a personal capacity and is not affiliated with, endorsed by, or representative of any employer, company, client, or other organization or GitHub users.
 
 If this account or its content is mentioned, referenced, or shared by others, that is solely their own choice and does not imply any affiliation, endorsement, or official relationship.
+
+
+---
+
+### 🔗 Other Contributions & Mentions
+
+A few other projects and public resources I've contributed to or been mentioned in:
+
+- **[LeakIX Credits](https://leakix.net/credits)** — Credited as [@ex16x41](https://twitter.com/ex16x41) for ideas, testing, and technical discussions on new plugins.
+- **[OSINT Google Dork Scanner — Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/osint-google-dork-scanner/)** — Mentioned in the add-on's shoutouts for the **Notion Scan** Google dork (`@ex16x41`).
+- **[Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database)** — Submitted Google dorks to GHDB in the past.
+
