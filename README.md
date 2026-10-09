@@ -45,7 +45,7 @@ If this account or its content is mentioned, referenced, or shared by others, th
 
 A few other projects and public resources I've contributed to or been mentioned in:
 
-- **[LeakIX Credits](https://leakix.net/credits)** — Credited as [@ex16x41](https://twitter.com/ex16x41) for ideas, testing, and technical discussions on new plugins.
+- **[LeakIX](https://leakix.net/credits)** — Credited as [@ex16x41](https://twitter.com/ex16x41) for ideas, testing, and technical discussions on new plugins.
 - **[OSINT Google Dork Scanner — Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/osint-google-dork-scanner/)** — Mentioned in the add-on's shoutouts for the **Notion Scan** Google dork (`@ex16x41`).
 - **[Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database)** — Submitted Google dorks to GHDB in the past.
 
